@@ -200,8 +200,6 @@ function UpdateImage(image_id) {
   submitData.append('userID', $('#newuserID').val());
   submitData.append('File', $('#newUpFile')[0].files[0]);
 
-  console.log(submitData)
-
     $.ajax({
 
       type: "PUT",
