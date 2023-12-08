@@ -128,7 +128,7 @@ function getImages(){
       items.push("<br/><br/>");
     });
 
-    // Clear the assetlist div
+    // Clear the Image list div
     $('#ImageList').empty();
 
     // Append the contents of the items array to the ImageList Div
